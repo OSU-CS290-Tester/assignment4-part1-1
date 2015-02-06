@@ -1,0 +1,29 @@
+You log goes in this  file.
+
+Start: Monday, 02 Feb 2015 13:00:00 -0800
+End: Monday, 02 Feb 2015 18:03:33 -0800
+Tasks: watched some lectures, read through php website, installed the apache server
+and the php, created the new repository for this week assignment.
+
+Start: Tuesday, 03 Feb 2015 17:00:00 -0800
+End: Tuesday, 03 Feb Feb 2015 18:30:00 -0800
+Tasks: solved the tables structure and returning the right values.
+
+Start: Wednesday, 04 Feb 2015 11:30:00 -0800
+End: Wednesday, 04 Feb Feb 2015 13:30:00 -0800
+Tasks: Worked on loopback.php.
+
+Start: Wednesday, 04 Feb 2015 16:00:00 -0800
+End: Wednesday, 04 Feb Feb 2015 20:00:00 -0800
+Tasks: Finished working on loopback.php.
+
+Start: Thursday, 05 Feb 2015 8:00:00 -0800
+End: Thursday, 05 Feb Feb 2015 12:30:00 -0800
+Tasks: Watch lectures and read about sessions, start working on login.php and content1.php.
+
+Start: Thursday, 05 Feb 2015 14:00:00 -0800
+End: Thursday, 05 Feb Feb 2015 17:0:00 -0800
+Tasks: Finished working on content2.php ( all my programs are working ).
+
+
+
