@@ -31,13 +31,14 @@ if (!isset($_SESSION['Username'])){
 	if (!isset($_SESSION['visits'])){
 		$_SESSION['visits'] = 0;
 	}
-
+	
+	
 	echo "Hello " . $_SESSION['Username'] . ", you have visited this page " . $_SESSION['visits'] . " times before.
 	 Click " . " <a href ='content1.php?logout=true'>here</a>" . " to logout.<br>";
 	echo "<br>Please click " . "<a href ='content2.php'>here</a>". " to direct you to content2.php page.\n";
-
+	
 	$_SESSION['visits'] ++ ;
-
+	
 
 // log the user out when clicking the logout link
 if(isset($_GET['logout'])){
