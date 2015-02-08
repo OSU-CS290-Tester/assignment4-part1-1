@@ -25,6 +25,7 @@ if(!isset($_POST['username']) || $_POST['username'] == null ){
 if (!isset($_SESSION['Username'])){
 	$_SESSION['Username'] = htmlspecialchars($_POST["username"]);
     }
+
     $_SESSION['Logged_in'] = 0;
 
     // create a variable to count the number of visits
@@ -37,8 +38,7 @@ if (!isset($_SESSION['Username'])){
 	 Click " . " <a href ='content1.php?logout=true'>here</a>" . " to logout.<br>";
 	echo "<br>Please click " . "<a href ='content2.php'>here</a>". " to direct you to content2.php page.\n";
 	
-	$_SESSION['visits'] ++ ;
-	
+	$_SESSION['visits'] ++ ;	
 
 // log the user out when clicking the logout link
 if(isset($_GET['logout'])){
